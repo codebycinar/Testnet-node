@@ -29,6 +29,6 @@ echo -e "\e[1m\e[32mClone repo and install snarkOS... \e[0m" && sleep 1
 
 git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 cd snarkOS
-cargo install path .
+cargo install --path .
 
 echo -e "\e[1m\e[32mSucces... \e[0m" && sleep 1
